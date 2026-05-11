@@ -1,0 +1,11 @@
+node_modules/
+secrets/*
+!secrets/.gitkeep
+!secrets/*.env.example
+.env
+.env.*
+!*.example
+data/magazord/raw/
+data/ga4/raw/
+data/magazord-test-read/
+docs-magazord-openapi.yaml

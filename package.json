@@ -1,0 +1,27 @@
+{
+  "name": "cabana-equestrian",
+  "version": "1.0.0",
+  "description": "Repositorio contextual para reunir analises, snippets CSS, referencias e decisoes estrategicas relacionadas ao ecommerce da Cabana Equestrian na plataforma Magazord.",
+  "main": "index.js",
+  "scripts": {
+    "export:ga4": "node scripts/ga4-export.mjs",
+    "export:magazord": "node scripts/magazord-export.mjs",
+    "analyze:menu": "node scripts/analyze-menu-data.mjs",
+    "capture:css": "node scripts/capture-site-css.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loterio/cabana-equestrian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/loterio/cabana-equestrian/issues"
+  },
+  "homepage": "https://github.com/loterio/cabana-equestrian#readme",
+  "dependencies": {
+    "@google-analytics/data": "^5.2.2"
+  }
+}

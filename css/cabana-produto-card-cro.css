@@ -1,0 +1,92 @@
+/*
+  Cabana Equestrian - ajuste CRO para botoes de compra e vitrines
+  Aplicar depois dos CSS padrao da Magazord.
+*/
+
+:root {
+  --ce-action: #252525;
+  --ce-action-hover: #000000;
+  --ce-brand-gold: #cc9933;
+  --ce-border-soft: #e7e1d5;
+  --ce-text: #252525;
+  --ce-muted: #666666;
+}
+
+/* Botao principal de compra: troca o verde generico por acao neutra e premium. */
+.button-buy,
+.mensagem-pop-up.popup-forma-pagto-multiplos .footer .button:nth-child(1),
+.mensagem-pop-up.popup-forma-pagto-multiplos .footer .button:nth-child(2) {
+  background: var(--ce-action) !important;
+  border-color: var(--ce-action) !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0 !important;
+  box-shadow: none !important;
+}
+
+.button-buy:hover,
+.mensagem-pop-up.popup-forma-pagto-multiplos .footer .button:hover:nth-child(1),
+.mensagem-pop-up.popup-forma-pagto-multiplos .footer .button:hover:nth-child(2) {
+  background: var(--ce-action-hover) !important;
+  border-color: var(--ce-action-hover) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.button-buy.button-outline {
+  background: #ffffff !important;
+  border-color: var(--ce-action) !important;
+  color: var(--ce-action) !important;
+}
+
+.button-buy.button-outline:hover {
+  background: var(--ce-action) !important;
+  border-color: var(--ce-action) !important;
+  color: #ffffff !important;
+}
+
+/* Botao de comprar na vitrine da home. Menos chamativo que verde, ainda claro. */
+.valores-logados-vitrine .btn-comprar-vitrine {
+  width: calc(100% - 20px) !important;
+  min-height: 40px !important;
+  margin: 8px 10px 0 !important;
+  padding: 10px 14px !important;
+  background: #ffffff !important;
+  border: 1px solid var(--ce-action) !important;
+  border-radius: 4px !important;
+  color: var(--ce-action) !important;
+  font-size: 0.8125rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  text-transform: none !important;
+  box-shadow: none !important;
+}
+
+.valores-logados-vitrine .btn-comprar-vitrine:hover {
+  background: var(--ce-action) !important;
+  border-color: var(--ce-action) !important;
+  color: #ffffff !important;
+}
+
+/* Cards de vitrine: respiro leve e menos deslocamento visual. */
+.vitrine ul.product-list li a {
+  margin: 0 8px 22px !important;
+}
+
+ul.product-list li {
+  background: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .vitrine ul.product-list li a {
+    margin: 0 5px 18px !important;
+  }
+
+  .valores-logados-vitrine .btn-comprar-vitrine {
+    min-height: 38px !important;
+    margin-top: 6px !important;
+    font-size: 0.75rem !important;
+  }
+}

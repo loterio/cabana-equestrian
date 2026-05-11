@@ -1,0 +1,290 @@
+/*
+  Cabana Equestrian - CSS consolidado
+  Fonte: captura do site publico.
+  Uso recomendado: manter este arquivo como fonte versionada e colar apenas
+  os blocos customizados no Site Builder/Conteudos Adicionais da Magazord.
+*/
+
+/* ========== Tokens atuais da Cabana ========== */
+:root {
+  --ce-brand-gold: #cc9933;
+  --ce-brand-gold-light: #d0ab62;
+  --ce-brand-yellow: #dccf70;
+  --ce-text: #252525;
+  --ce-muted: #666666;
+  --ce-border: #e7e1d5;
+  --ce-surface: #ffffff;
+}
+
+/* ========== CSS customizado publicado: https://cabanaequestrian.cdn.magazord.com.br/resources/cabanaequestrian.css ========== */
+:root {
+    --cor-base: #c93;
+    --cor-base-light: #d0ab62;
+    --cor-secundaria: #dccf70;
+}
+
+/*Selo Ebit*/
+
+@media only screen and (max-width: 640px) and (min-width: 320px) {
+#boxLight {
+    width: 100% !important;
+    background-size: contain !important;
+  }
+}
+
+img[Attributes Style], .buy-area .pix .icon-payment {
+    width: 40px !important;
+}
+
+/* ========== Inline styles encontrados na home ========== */
+/*
+  Estes blocos vieram de <style> inline na pagina inicial. Revise antes de colar,
+  pois alguns podem ser gerados pela propria vitrine/landing page da Magazord.
+*/
+
+/* ----- inline-style-01 | 632 bytes ----- */
+.container-swiper .gallery-container .gallery-main .swiper-video::after {
+                content: "";
+                height: 50%;
+                width: 30%;
+                position: absolute;
+                right: 0;
+            }
+
+            .container-swiper .gallery-container .gallery-main .swiper-video::before {
+                content: "";
+                height: 50%;
+                width: 30%;
+                position: absolute;
+                left: 0;
+            }
+
+            .swiper-wrapper:has(.swiper-video.swiper-slide-active iframe) ~ .swiper-pagination-bullets {
+                z-index: 0;
+            }
+
+/* ----- inline-style-02 | 4736 bytes ----- */
+:root {
+                        --icon-user: url("https://public-resources.zordcdn.com.br/assets/global/blackfriday/icon-user.svg");
+                        --icon-email-white: url("https://public-resources.zordcdn.com.br/assets/global/blackfriday/icon-email.svg");
+
+                        --icon-quote: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-quote.svg");
+                        --arrow-left: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/arrow-left.svg");
+                        --arrow-right: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/arrow-right.svg");
+                        --icon-protecao-https: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-protecao-https.svg");
+                        --icon-amazon: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-amazon.svg");
+                        --icon-plataforma: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-plataforma.svg");
+
+                        --ajax-loader: url("https://public-resources.zordcdn.com.br/assets/global/globals-icons/ajax-loader.svg");
+                        --icon-loader-black: url("https://public-resources.zordcdn.com.br/assets/global/globals-icons/icon-loader-black.svg");
+
+                        --field-valid: url("https://public-resources.zordcdn.com.br/assets/global/common-icons/field-valid.png");
+
+                        --bg-card: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/bg-card.svg");
+
+                        --icon-form-invalid: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/icon-form-invalid.svg");
+                        --icon-form-valid: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/icon-form-valid.svg");
+
+                        --attachment-icon: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/enderecos/attachment-icon.svg");
+
+                        --icon-play: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-play.svg");
+                        --icon-zoom: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-zoom.svg");
+                        --icon-close: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-close.svg");
+                        --icon-upload: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-upload.svg");
+
+                        --arrow: url("https://public-resources.zordcdn.com.br/assets/global/clientes/frontend/header-12/arrow.svg");
+
+                        --eye: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/eye.svg");
+                        --email: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/email.svg");
+                        --lock: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/lock.svg");
+                        --nome: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/nome.svg");
+                        --documento-identificacao: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/documento-identificacao.svg");
+                        --ie: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/ie.svg");
+                        --razao-social: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/razao-social.svg");
+                        --nome-fantasia: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/nome-fantasia.svg");
+                        --whatsapp: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/whatsapp.svg");
+                        --map: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/map.svg");
+
+                        --icon-person: url("https://public-resources.zordcdn.com.br/assets/global/admin/icon-person.svg");
+                        --pedido: url("https://public-resources.zordcdn.com.br/assets/global/admin/pedido.svg");
+
+                        --chevron-down: url("https://public-resources.zordcdn.com.br/assets/global/checkout-v2/chevron-down.svg");
+                        --spinner: url("https://public-resources.zordcdn.com.br/assets/global/checkout-v2/spinner.svg");
+
+                        --check-circle: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/detalhes-pedido/check-circle.svg");
+                        --check-circle-gray: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/detalhes-pedido/check-circle-gray.svg");
+                    }
+
+/* ----- inline-style-03 | 12 bytes ----- */
+body {     }
+
+/* ----- inline-style-04 | 1425 bytes ----- */
+.cart-loading > a {
+                        pointer-events: none;
+                    }
+
+                    .is-tablet-mobile .carrinho-ctn .carrinho-rapido.loading:after {
+                        content: '';
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        border-top: 3px solid #999;
+                        border-right: 3px solid transparent;
+                        box-sizing: border-box;
+                        animation: rotation 0.8s linear infinite;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        left: 0;
+                        right: 0;
+
+                    }
+
+                    @keyframes rotation {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        100% {
+                            transform: rotate(360deg);
+                        }
+                    }  #header-react-app .menu-open {
+                        transform: translate(0, 0);
+                        -webkit-transform: translate(0, 0);
+                    }
+
+                    #header-react-app .menu-closed {
+                        transform: translate(-102%, 0);
+                    }
+
+/* ----- inline-style-05 | 24 bytes ----- */
+:root {                }
+
+/* ----- inline-style-06 | 1498 bytes ----- */
+img.lazyload,
+                    .instagram-carousel img.lazyloading,
+                    .lazyload-area.lazyload,
+                    .lazyload-area.lazyloading {
+                        opacity: 1;
+                        transform: scale(1);
+                        background-color: #dfdfdf;
+                        background-image: linear-gradient(90deg,rgba(255,255,255,0) 0,rgb(255 255 255 / 45%) 50%,rgba(255,255,255,0) 100%);
+                        animation: bg-lazyload-box 1s linear infinite;
+                        -webkit-animation: bg-lazyload-box 1s linear infinite;
+                        background-size: 95% 100%;
+                        background-repeat: no-repeat;
+                        background-position: -2500% 0;
+                    }
+
+                    header img.lazyload-svg {
+                        visibility: hidden;
+                    }
+
+                    header svg.replaced-svg {
+                        visibility: visible;
+                    }
+
+                    .lazyload-area-avaliacoes.lazyload,
+                    .lazyload-area-avaliacoes.lazyloading {
+                        min-height: 400px;
+                        display: block;
+                    }
+
+                    /* img.lazyload-svg {
+                        visibility: hidden;
+                    } */
+
+                    @keyframes bg-lazyload-box{to{background-position:2500% 0}}
+                    @-webkit-keyframes bg-lazyload-box{to{background-position:2500% 0}}
+
+/* ----- inline-style-07 | 563 bytes ----- */
+header.ra-header {
+        z-index: 999;  position: relative;  }     header.header-fixed:not(.is-tablet-mobile) {
+            font-family: "Work Sans", sans-serif;
+            padding: 10px 60px;
+            -moz-box-shadow: 0px 4px 10px rgba(0,0,0,0.06);
+            -webkit-box-shadow: 0px 4px 10px rgba(0,0,0,0.06);
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.06);
+            -moz-transition: all .25s linear;
+            -o-transition: all .25s linear;
+            -webkit-transition: all .25s linear;
+            transition: all .25s linear;
+        }
+
+/* ----- inline-style-08 | 225 bytes ----- */
+.espaco-maior{
+    padding: 0px;
+}
+.espaco-maior .img-principal {
+    padding: 0px;
+}
+.vitrine ul.product-list li a {
+    margin: 0px 10px 20px 10px;
+}
+/*
+.menu-list-49 {
+    background: #fff !important;
+    color: #fff;
+}
+*/
+
+/* ----- inline-style-09 | 223 bytes ----- */
+.colunas .ra-vitrine .button-prev {
+        border-radius: 0;
+        left: 0;
+    }
+    .colunas .ra-vitrine .button-next {
+        border-radius: 0;
+        right: 0;
+    }  .ra-vitrine {
+        position: relative;
+    }
+
+/* ----- inline-style-10 | 223 bytes ----- */
+.colunas .ra-vitrine .button-prev {
+        border-radius: 0;
+        left: 0;
+    }
+    .colunas .ra-vitrine .button-next {
+        border-radius: 0;
+        right: 0;
+    }  .ra-vitrine {
+        position: relative;
+    }
+
+/* ----- inline-style-11 | 223 bytes ----- */
+.colunas .ra-vitrine .button-prev {
+        border-radius: 0;
+        left: 0;
+    }
+    .colunas .ra-vitrine .button-next {
+        border-radius: 0;
+        right: 0;
+    }  .ra-vitrine {
+        position: relative;
+    }
+
+/* ----- inline-style-12 | 223 bytes ----- */
+.colunas .ra-vitrine .button-prev {
+        border-radius: 0;
+        left: 0;
+    }
+    .colunas .ra-vitrine .button-next {
+        border-radius: 0;
+        right: 0;
+    }  .ra-vitrine {
+        position: relative;
+    }
+
+/* ----- inline-style-13 | 223 bytes ----- */
+.colunas .ra-vitrine .button-prev {
+        border-radius: 0;
+        left: 0;
+    }
+    .colunas .ra-vitrine .button-next {
+        border-radius: 0;
+        right: 0;
+    }  .ra-vitrine {
+        position: relative;
+    }

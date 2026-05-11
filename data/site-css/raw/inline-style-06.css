@@ -1,0 +1,35 @@
+img.lazyload,
+                    .instagram-carousel img.lazyloading,
+                    .lazyload-area.lazyload,
+                    .lazyload-area.lazyloading {
+                        opacity: 1;
+                        transform: scale(1);
+                        background-color: #dfdfdf;
+                        background-image: linear-gradient(90deg,rgba(255,255,255,0) 0,rgb(255 255 255 / 45%) 50%,rgba(255,255,255,0) 100%);
+                        animation: bg-lazyload-box 1s linear infinite;
+                        -webkit-animation: bg-lazyload-box 1s linear infinite;
+                        background-size: 95% 100%;
+                        background-repeat: no-repeat;
+                        background-position: -2500% 0;
+                    }
+
+                    header img.lazyload-svg {
+                        visibility: hidden;
+                    }
+
+                    header svg.replaced-svg {
+                        visibility: visible;
+                    }
+
+                    .lazyload-area-avaliacoes.lazyload,
+                    .lazyload-area-avaliacoes.lazyloading {
+                        min-height: 400px;
+                        display: block;
+                    }
+
+                    /* img.lazyload-svg {
+                        visibility: hidden;
+                    } */
+
+                    @keyframes bg-lazyload-box{to{background-position:2500% 0}}
+                    @-webkit-keyframes bg-lazyload-box{to{background-position:2500% 0}}

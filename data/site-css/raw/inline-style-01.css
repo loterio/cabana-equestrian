@@ -1,0 +1,19 @@
+.container-swiper .gallery-container .gallery-main .swiper-video::after {
+                content: "";
+                height: 50%;
+                width: 30%;
+                position: absolute;
+                right: 0;
+            }
+
+            .container-swiper .gallery-container .gallery-main .swiper-video::before {
+                content: "";
+                height: 50%;
+                width: 30%;
+                position: absolute;
+                left: 0;
+            }
+
+            .swiper-wrapper:has(.swiper-video.swiper-slide-active iframe) ~ .swiper-pagination-bullets {
+                z-index: 0;
+            }

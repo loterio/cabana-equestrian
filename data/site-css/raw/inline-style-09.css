@@ -1,0 +1,10 @@
+.colunas .ra-vitrine .button-prev {
+        border-radius: 0;
+        left: 0;
+    }
+    .colunas .ra-vitrine .button-next {
+        border-radius: 0;
+        right: 0;
+    }  .ra-vitrine {
+        position: relative;
+    }

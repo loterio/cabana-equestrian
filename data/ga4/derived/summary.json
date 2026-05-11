@@ -1,0 +1,32 @@
+{
+  "propertyId": "386651040",
+  "startDate": "2026-01-01",
+  "endDate": "today",
+  "exportedAt": "2026-05-11T12:57:02.587Z",
+  "reports": {
+    "overview-by-device": {
+      "rows": 3
+    },
+    "traffic-by-channel-device": {
+      "rows": 62
+    },
+    "landing-pages-mobile": {
+      "rows": 10000
+    },
+    "pages": {
+      "rows": 10000
+    },
+    "item-categories": {
+      "rows": 23
+    },
+    "items": {
+      "rows": 397
+    },
+    "events": {
+      "rows": 21
+    },
+    "internal-search": {
+      "rows": 907
+    }
+  }
+}

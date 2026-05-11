@@ -1,0 +1,154 @@
+{
+  "capturedAt": "2026-05-11T13:48:39.612Z",
+  "siteUrl": "https://www.cabanaequestrian.com.br",
+  "htmlBytes": 416104,
+  "cssLinks": [
+    {
+      "href": "https://frontend.services.magazord.com.br/header/header.css?v=1770",
+      "rel": "preload",
+      "as": "style",
+      "tag": "<link rel=\"preload\" as=\"style\" href=\"https://frontend.services.magazord.com.br/header/header.css?v=1770\" onload=\"this.onload=null;this.rel='stylesheet'\" />",
+      "kind": "platform",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 99252,
+      "file": "data/site-css/raw/platform-frontend.services.magazord.com.br-header-header.css-v-1770.css"
+    },
+    {
+      "href": "https://public-resources.zordcdn.com.br/assets/frontend/1091/css/carrinho-rapido/header-react-remove-item.css?v=1770",
+      "rel": "preload",
+      "as": "style",
+      "tag": "<link rel=\"preload\" as=\"style\" href=\"https://public-resources.zordcdn.com.br/assets/frontend/1091/css/carrinho-rapido/header-react-remove-item.css?v=1770\" onload=\"this.onload=null;this.rel='stylesheet'\" />",
+      "kind": "platform",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 2292,
+      "file": "data/site-css/raw/platform-public-resources.zordcdn.com.br-assets-frontend-1091-css-carrinho-rapido-header-react-remove-item.css-v-1770.css"
+    },
+    {
+      "href": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Montserrat:wght@400;600&display=swap",
+      "rel": "preload",
+      "as": "style",
+      "tag": "<link rel=\"preload\" href=\"//fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Montserrat:wght@400;600&display=swap\" as=\"style\" onload=\"this.onload=null;this.rel='stylesheet'\">",
+      "kind": "platform",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 986,
+      "file": "data/site-css/raw/platform-fonts.googleapis.com-css2-family-Open-Sans-wght-400-700-family-Montserrat-wght-400-600-display-swap.css"
+    },
+    {
+      "href": "https://public-resources.zordcdn.com.br/assets/frontend/1091/css/main.css?v=1770",
+      "rel": "stylesheet",
+      "as": "",
+      "tag": "<link href='https://public-resources.zordcdn.com.br/assets/frontend/1091/css/main.css?v=1770' rel='stylesheet' type='text/css' />",
+      "kind": "platform",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 83258,
+      "file": "data/site-css/raw/platform-public-resources.zordcdn.com.br-assets-frontend-1091-css-main.css-v-1770.css"
+    },
+    {
+      "href": "https://cabanaequestrian.cdn.magazord.com.br/resources/cabanaequestrian.css",
+      "rel": "stylesheet",
+      "as": "",
+      "tag": "<link data-resource-name=\"cabanaequestrian.css\" href=\"https://cabanaequestrian.cdn.magazord.com.br/resources/cabanaequestrian.css\" rel=\"stylesheet\" type=\"text/css\" />",
+      "kind": "custom-resource",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 349,
+      "file": "data/site-css/raw/custom-resource-cabanaequestrian.cdn.magazord.com.br-resources-cabanaequestrian.css.css"
+    },
+    {
+      "href": "https://public-resources.zordcdn.com.br/assets/frontend/1091/css/landing-page.css?v=1770",
+      "rel": "stylesheet",
+      "as": "",
+      "tag": "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://public-resources.zordcdn.com.br/assets/frontend/1091/css/landing-page.css?v=1770\"/>",
+      "kind": "platform",
+      "status": 200,
+      "contentType": "text/css",
+      "bytes": 13520,
+      "file": "data/site-css/raw/platform-public-resources.zordcdn.com.br-assets-frontend-1091-css-landing-page.css-v-1770.css"
+    }
+  ],
+  "inlineStyles": [
+    {
+      "index": 1,
+      "attrs": "",
+      "bytes": 632,
+      "file": "data/site-css/raw/inline-style-01.css"
+    },
+    {
+      "index": 2,
+      "attrs": "type=\"text/css\"",
+      "bytes": 4736,
+      "file": "data/site-css/raw/inline-style-02.css"
+    },
+    {
+      "index": 3,
+      "attrs": "type=\"text/css\"",
+      "bytes": 12,
+      "file": "data/site-css/raw/inline-style-03.css"
+    },
+    {
+      "index": 4,
+      "attrs": "",
+      "bytes": 1425,
+      "file": "data/site-css/raw/inline-style-04.css"
+    },
+    {
+      "index": 5,
+      "attrs": "type=\"text/css\"",
+      "bytes": 24,
+      "file": "data/site-css/raw/inline-style-05.css"
+    },
+    {
+      "index": 6,
+      "attrs": "",
+      "bytes": 1498,
+      "file": "data/site-css/raw/inline-style-06.css"
+    },
+    {
+      "index": 7,
+      "attrs": "",
+      "bytes": 563,
+      "file": "data/site-css/raw/inline-style-07.css"
+    },
+    {
+      "index": 8,
+      "attrs": "",
+      "bytes": 225,
+      "file": "data/site-css/raw/inline-style-08.css"
+    },
+    {
+      "index": 9,
+      "attrs": "",
+      "bytes": 223,
+      "file": "data/site-css/raw/inline-style-09.css"
+    },
+    {
+      "index": 10,
+      "attrs": "",
+      "bytes": 223,
+      "file": "data/site-css/raw/inline-style-10.css"
+    },
+    {
+      "index": 11,
+      "attrs": "",
+      "bytes": 223,
+      "file": "data/site-css/raw/inline-style-11.css"
+    },
+    {
+      "index": 12,
+      "attrs": "",
+      "bytes": 223,
+      "file": "data/site-css/raw/inline-style-12.css"
+    },
+    {
+      "index": 13,
+      "attrs": "",
+      "bytes": 223,
+      "file": "data/site-css/raw/inline-style-13.css"
+    }
+  ],
+  "consolidatedFile": "css/cabana-site-consolidado.css"
+}

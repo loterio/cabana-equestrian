@@ -1,0 +1,50 @@
+:root {
+                        --icon-user: url("https://public-resources.zordcdn.com.br/assets/global/blackfriday/icon-user.svg");
+                        --icon-email-white: url("https://public-resources.zordcdn.com.br/assets/global/blackfriday/icon-email.svg");
+
+                        --icon-quote: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-quote.svg");
+                        --arrow-left: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/arrow-left.svg");
+                        --arrow-right: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/arrow-right.svg");
+                        --icon-protecao-https: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-protecao-https.svg");
+                        --icon-amazon: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-amazon.svg");
+                        --icon-plataforma: url("https://public-resources.zordcdn.com.br/assets/global/loja-confiavel/icon-plataforma.svg");
+
+                        --ajax-loader: url("https://public-resources.zordcdn.com.br/assets/global/globals-icons/ajax-loader.svg");
+                        --icon-loader-black: url("https://public-resources.zordcdn.com.br/assets/global/globals-icons/icon-loader-black.svg");
+
+                        --field-valid: url("https://public-resources.zordcdn.com.br/assets/global/common-icons/field-valid.png");
+
+                        --bg-card: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/bg-card.svg");
+
+                        --icon-form-invalid: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/icon-form-invalid.svg");
+                        --icon-form-valid: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/icon-form-valid.svg");
+
+                        --attachment-icon: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/enderecos/attachment-icon.svg");
+
+                        --icon-play: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-play.svg");
+                        --icon-zoom: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-zoom.svg");
+                        --icon-close: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-close.svg");
+                        --icon-upload: url("https://public-resources.zordcdn.com.br/assets/global/produto/icon-upload.svg");
+
+                        --arrow: url("https://public-resources.zordcdn.com.br/assets/global/clientes/frontend/header-12/arrow.svg");
+
+                        --eye: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/eye.svg");
+                        --email: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/email.svg");
+                        --lock: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/lock.svg");
+                        --nome: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/nome.svg");
+                        --documento-identificacao: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/documento-identificacao.svg");
+                        --ie: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/ie.svg");
+                        --razao-social: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/razao-social.svg");
+                        --nome-fantasia: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/nome-fantasia.svg");
+                        --whatsapp: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/whatsapp.svg");
+                        --map: url("https://public-resources.zordcdn.com.br/assets/global/admin/login-v3/map.svg");
+
+                        --icon-person: url("https://public-resources.zordcdn.com.br/assets/global/admin/icon-person.svg");
+                        --pedido: url("https://public-resources.zordcdn.com.br/assets/global/admin/pedido.svg");
+
+                        --chevron-down: url("https://public-resources.zordcdn.com.br/assets/global/checkout-v2/chevron-down.svg");
+                        --spinner: url("https://public-resources.zordcdn.com.br/assets/global/checkout-v2/spinner.svg");
+
+                        --check-circle: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/detalhes-pedido/check-circle.svg");
+                        --check-circle-gray: url("https://public-resources.zordcdn.com.br/assets/global/user-area-v2/detalhes-pedido/check-circle-gray.svg");
+                    }
