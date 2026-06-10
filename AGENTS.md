@@ -65,7 +65,8 @@ Use sempre o prefixo `rtk` nos comandos deste ambiente.
 
 ## CSS e Snippets Magazord
 
-- O arquivo `css/cabana-site-consolidado.css` e inventario/versionamento do CSS publico capturado, nao necessariamente um bloco para colar inteiro no Magazord.
+- O arquivo operacional que deve refletir a aba HTML/Recursos > CSS da Magazord e `css/cabanaequestrian.css`.
+- O arquivo `css/cabana-site-consolidado.css` e inventario/versionamento do CSS publico capturado, nao um bloco para colar inteiro no Magazord.
 - Prefira snippets pequenos e reversiveis em `css/`.
 - Para ajustes de botao/card de produto, usar como base `css/cabana-produto-card-cro.css`.
 - Evite copiar CSS base da plataforma Magazord para o Site Builder sem necessidade.

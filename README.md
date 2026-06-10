@@ -51,6 +51,14 @@ Leia [HANDOFF.md](HANDOFF.md) antes de continuar uma nova frente. Ele registra o
 - [integracoes/](integracoes/): notas de API Magazord e GA4.
 - [scripts/](scripts/): exportacao, analise, recomendacao de produtos e captura de CSS.
 
+## CSS Operacional
+
+O arquivo que deve ficar sincronizado com a aba **HTML/Recursos > CSS** da Magazord e:
+
+- [css/cabanaequestrian.css](css/cabanaequestrian.css)
+
+O arquivo [css/cabana-site-consolidado.css](css/cabana-site-consolidado.css) e apenas uma captura/auditoria historica do CSS publico e dos estilos inline encontrados na home. Ele nao deve ser colado inteiro no painel.
+
 ## Comandos
 
 Use sempre `rtk` neste ambiente.

@@ -1,0 +1,46 @@
+/*
+  Cabana Equestrian - CSS operacional Magazord
+  Fonte da verdade para a aba HTML/Recursos > CSS.
+  Manter este arquivo sincronizado com o CSS publicado no painel.
+*/
+
+:root {
+  --cor-base: #c93;
+  --cor-base-light: #d0ab62;
+  --cor-secundaria: #dccf70;
+}
+
+/* Selo Ebit */
+
+@media only screen and (max-width: 640px) and (min-width: 320px) {
+  #boxLight {
+    width: 100% !important;
+    background-size: contain !important;
+  }
+}
+
+img[Attributes Style],
+.buy-area .pix .icon-payment {
+  width: 40px !important;
+}
+
+/* Menu desktop */
+
+@media (min-width: 1024px) {
+  #nav-root > ul > li > a[class*="menu-link-"] {
+    font-size: 0.9375rem !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0 !important;
+  }
+
+  #nav-root > ul > li > a[class*="menu-link-"] .menu-text {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+}
+
+.border, .ra-vitrine .border {
+  border: 0px;
+}

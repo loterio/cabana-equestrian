@@ -195,6 +195,7 @@ Foi solicitado organizar todo CSS aplicado no site em um lugar.
 
 Artefatos criados:
 
+- `css/cabanaequestrian.css`
 - `scripts/capture-site-css.mjs`
 - `data/site-css/inventory.json`
 - `data/site-css/raw/`
@@ -208,6 +209,7 @@ CSS customizado publicado hoje:
 
 Importante:
 
+- A fonte operacional para sincronizar com a aba HTML/Recursos > CSS da Magazord e `css/cabanaequestrian.css`.
 - O `css/cabana-site-consolidado.css` e inventario/versionamento, nao necessariamente um bloco para colar inteiro no Magazord.
 - Nao copiar CSS base da plataforma Magazord para Site Builder sem necessidade.
 - Preferir snippets pequenos e testaveis.
