@@ -1,11 +1,11 @@
 {
   "since": "2026-01-01",
-  "exportedAt": "2026-05-11T12:06:16.390Z",
-  "orders": 239,
-  "orderDetails": 239,
-  "orderItems": 369,
+  "exportedAt": "2026-07-27T18:05:13.744Z",
+  "orders": 366,
+  "orderDetails": 366,
+  "orderItems": 551,
   "categories": 48,
-  "products": 964,
-  "stockRows": 1342,
-  "siteMenu": 4
+  "products": 1003,
+  "stockRows": 1399,
+  "siteMenu": 2
 }

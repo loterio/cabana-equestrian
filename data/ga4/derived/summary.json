@@ -2,31 +2,31 @@
   "propertyId": "386651040",
   "startDate": "2026-01-01",
   "endDate": "today",
-  "exportedAt": "2026-05-11T12:57:02.587Z",
+  "exportedAt": "2026-07-27T17:59:28.320Z",
   "reports": {
     "overview-by-device": {
-      "rows": 3
+      "error": "invalid_grant"
     },
     "traffic-by-channel-device": {
-      "rows": 62
+      "error": "invalid_grant"
     },
     "landing-pages-mobile": {
-      "rows": 10000
+      "error": "invalid_grant"
     },
     "pages": {
-      "rows": 10000
+      "error": "invalid_grant"
     },
     "item-categories": {
-      "rows": 23
+      "error": "invalid_grant"
     },
     "items": {
-      "rows": 397
+      "error": "invalid_grant"
     },
     "events": {
-      "rows": 21
+      "error": "invalid_grant"
     },
     "internal-search": {
-      "rows": 907
+      "error": "invalid_grant"
     }
   }
 }

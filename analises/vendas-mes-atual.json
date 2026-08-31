@@ -1,0 +1,52 @@
+{
+  "periodo": "01/08/2026 até hoje",
+  "resumoMagazord": {
+    "totalPedidosGeral": 19,
+    "faturamentoGeral": 3886.3900000000003,
+    "ticketMedioGeral": 204.54684210526318,
+    "pedidosValidos": 18,
+    "faturamentoValidos": 3736.5699999999997,
+    "ticketMedioValidos": 207.5872222222222,
+    "pedidosCancelados": 1,
+    "faturamentoCancelados": 149.82
+  },
+  "statusPedidos": {
+    "Entregue": 9,
+    "Transporte": 9,
+    "Cancelado": 1
+  },
+  "origemGeral": {
+    "1": {
+      "qtd": 8,
+      "valor": 2346.7,
+      "ticketMedio": 293.3375
+    },
+    "2": {
+      "qtd": 1,
+      "valor": 339.89,
+      "ticketMedio": 339.89
+    },
+    "3": {
+      "qtd": 10,
+      "valor": 1199.8,
+      "ticketMedio": 119.97999999999999
+    }
+  },
+  "origemValidos": {
+    "1": {
+      "qtd": 7,
+      "valor": 2196.88,
+      "ticketMedio": 313.84000000000003
+    },
+    "2": {
+      "qtd": 1,
+      "valor": 339.89,
+      "ticketMedio": 339.89
+    },
+    "3": {
+      "qtd": 10,
+      "valor": 1199.8,
+      "ticketMedio": 119.97999999999999
+    }
+  }
+}

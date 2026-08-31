@@ -1,0 +1,169 @@
+{
+  "geradoEm": "2026-08-13T12:41:07.248Z",
+  "since": "2026-08-01",
+  "vendas": {
+    "pedidos": 17,
+    "validos": 16,
+    "faturamentoValido": 4577.370000000001,
+    "ticketMedio": 286.08562500000005,
+    "porSituacao": {
+      "8 - Entregue": {
+        "qtd": 6,
+        "valor": 2119.96
+      },
+      "7 - Transporte": {
+        "qtd": 10,
+        "valor": 2457.41
+      },
+      "2 - Cancelado": {
+        "qtd": 1,
+        "valor": 149.82
+      }
+    },
+    "porDia": {
+      "2026-08-01": {
+        "qtd": 1,
+        "valor": 244.55
+      },
+      "2026-08-02": {
+        "qtd": 1,
+        "valor": 339.89
+      },
+      "2026-08-03": {
+        "qtd": 2,
+        "valor": 360.45000000000005
+      },
+      "2026-08-04": {
+        "qtd": 1,
+        "valor": 348.93
+      },
+      "2026-08-05": {
+        "qtd": 2,
+        "valor": 695.3
+      },
+      "2026-08-06": {
+        "qtd": 1,
+        "valor": 244.82
+      },
+      "2026-08-07": {
+        "qtd": 1,
+        "valor": 595.4
+      },
+      "2026-08-09": {
+        "qtd": 1,
+        "valor": 110.58
+      },
+      "2026-08-10": {
+        "qtd": 4,
+        "valor": 769.9
+      },
+      "2026-08-11": {
+        "qtd": 1,
+        "valor": 150
+      },
+      "2026-08-12": {
+        "qtd": 1,
+        "valor": 717.55
+      }
+    }
+  },
+  "estoque": {
+    "produtos": 1011,
+    "comEstoque": 348,
+    "zerados": 662,
+    "unidades": 4531,
+    "fonte": "estoque.json"
+  },
+  "maisVendidos": [
+    {
+      "nome": "Casaco Feminino Soft Cute",
+      "qtd": 4,
+      "valor": 600,
+      "estoqueAtual": 3
+    },
+    {
+      "nome": "Calça Feminina  Boot Cut Corcel",
+      "qtd": 2,
+      "valor": 599.5999999999999,
+      "estoqueAtual": 36
+    },
+    {
+      "nome": "COBREDOM CABANA",
+      "qtd": 2,
+      "valor": 299.8,
+      "estoqueAtual": 2
+    },
+    {
+      "nome": "Casaco Soft Feminino Alongado Rebeca",
+      "qtd": 1,
+      "valor": 244.55,
+      "estoqueAtual": 31
+    },
+    {
+      "nome": "Camisete Feminina Zoe",
+      "qtd": 1,
+      "valor": 210.55,
+      "estoqueAtual": 49
+    },
+    {
+      "nome": "Vestido Feminino Juliana",
+      "qtd": 1,
+      "valor": 348.93,
+      "estoqueAtual": 16
+    },
+    {
+      "nome": "Calça Boot Cut Feminina Emanuely",
+      "qtd": 1,
+      "valor": 257.7,
+      "estoqueAtual": 6
+    },
+    {
+      "nome": "Calça Jeans Feminina Nobreza Cabana",
+      "qtd": 1,
+      "valor": 244.82,
+      "estoqueAtual": 9
+    },
+    {
+      "nome": "Bombacha Feminina Xadrez Valentina",
+      "qtd": 1,
+      "valor": 297.7,
+      "estoqueAtual": 22
+    },
+    {
+      "nome": "Bombacha Feminina Grazi",
+      "qtd": 1,
+      "valor": 297.7,
+      "estoqueAtual": 24
+    },
+    {
+      "nome": "Jaqueta Feminina  Beatrix",
+      "qtd": 1,
+      "valor": 94.81,
+      "estoqueAtual": 5
+    },
+    {
+      "nome": "Calça Wide Leg Feminina Iasmin",
+      "qtd": 1,
+      "valor": 319.9,
+      "estoqueAtual": 17
+    },
+    {
+      "nome": "Bombacha Feminina Xadrez Ana",
+      "qtd": 1,
+      "valor": 282.82,
+      "estoqueAtual": 64
+    },
+    {
+      "nome": "Colete Feminino Xadrez Ana",
+      "qtd": 1,
+      "valor": 161.41,
+      "estoqueAtual": 39
+    },
+    {
+      "nome": "Calça Feminia Wide Leg Cabana Leo",
+      "qtd": 1,
+      "valor": 273.32,
+      "estoqueAtual": 29
+    }
+  ]
+}
